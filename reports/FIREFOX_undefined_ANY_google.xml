@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="google"
+    errors="0" failures="1" hostname="" id="" package="google" skipped="0"
+    tests="1" time="7.872" timestamp="Fri, 09 Jun 2017 08:20:43 GMT">
+  
+    <testcase name="Demo test Google" classname="google" time="7.872" assertions="3">
+
+    
+
+      <failure message="Expected element &lt;body&gt; to have attribute &quot;class&quot; which contains: &quot;ec-account-gp&quot;">    at Object.Demo test Google (/home/mkahouli/test/TF/tests/google.js:13:19)
+    at Module.call (/home/mkahouli/test/TF/nightwatch/lib/runner/module.js:62:34)
+    at /home/mkahouli/test/TF/nightwatch/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
