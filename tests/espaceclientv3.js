@@ -11,7 +11,16 @@ module.exports = {
     browser
       .setValue('#default_f_credential', '0672088197')
       .setValue('#default_f_password', 'Test.123')
-      .click('input[value=s’identifier]')
-      .pause(5000)
+      .useXpath()
+      .click('//input[@class="sc_button_content_2 submit"]')
+      .pause(1000)
+  },
+
+  'espace client v3: step three' : function (browser) {
+    browser
+      .waitForElementVisible('ec-account ec-account-gp', 5000)
+      .assert.elementPresent(".ec-icon icon-avatar")
+      .assert.elementPresent(".btn btn-default btn-default-alone-sosh")
+      .end();
   }
 };

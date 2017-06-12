@@ -1,46 +1,97 @@
-17:24:13.105 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-17:24:13.107 INFO - Launching a standalone Selenium Server
-2017-06-11 17:24:13.170:INFO::main: Logging initialized @818ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:24:13.350 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:24:13.352 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+01:15:04.021 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+01:15:04.021 INFO - Launching a standalone Selenium Server
+2017-06-12 01:15:04.090:INFO::main: Logging initialized @865ms to org.seleniumhq.jetty9.util.log.StdErrLog
+01:15:04.278 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+01:15:04.278 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-17:24:13.353 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:24:13.354 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:24:13.358 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+01:15:04.278 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+01:15:04.278 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+01:15:04.278 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
-2017-06-11 17:24:13.520:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-11 17:24:13.645:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ae45eb6{/,null,AVAILABLE}
-2017-06-11 17:24:15.624:INFO:osjs.AbstractConnector:main: Started ServerConnector@761950dd{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-11 17:24:15.626:INFO:osjs.Server:main: Started @3275ms
-17:24:15.626 INFO - Selenium Server is up and running
-17:24:16.398 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-17:24:16.478 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-17:24:16.513 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 31491
+2017-06-12 01:15:04.424:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-12 01:15:04.549:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ae45eb6{/,null,AVAILABLE}
+2017-06-12 01:15:06.687:INFO:osjs.AbstractConnector:main: Started ServerConnector@13805618{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-12 01:15:06.689:INFO:osjs.Server:main: Started @3459ms
+01:15:06.690 INFO - Selenium Server is up and running
+01:15:07.500 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+01:15:07.660 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+01:15:07.707 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 2366
 Only local connections are allowed.
-17:24:21.859 INFO - Detected dialect: OSS
-17:24:21.926 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-17:24:21.981 INFO - Executing: [get: https://espaceclientv3.orange.fr])
-17:24:34.433 INFO - Done: [get: https://espaceclientv3.orange.fr]
-17:24:34.499 INFO - Executing: [find elements: By.cssSelector: body])
-17:24:34.879 INFO - Done: [find elements: By.cssSelector: body]
-17:24:34.897 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: body]])
-17:24:34.966 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: body]]
-17:24:35.002 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
-17:24:35.075 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
-17:24:35.096 INFO - Executing: [find element: By.cssSelector: a[title=Identifiez-vous]])
-17:24:35.198 INFO - Done: [find element: By.cssSelector: a[title=Identifiez-vous]]
-17:24:35.211 INFO - Executing: [click: 1 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: #o-nav-item-login]])
-17:24:50.321 INFO - Done: [click: 1 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: #o-nav-item-login]]
-17:24:50.376 INFO - Executing: [find element: By.cssSelector: #default_f_credential])
-17:24:50.485 INFO - Done: [find element: By.cssSelector: #default_f_credential]
-17:24:50.503 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]])
-17:24:50.986 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]]
-17:24:51.004 INFO - Executing: [find element: By.cssSelector: #default_f_password])
-17:24:51.077 INFO - Done: [find element: By.cssSelector: #default_f_password]
-17:24:51.092 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: #default_f_password], [T, e, s, t, ., 1, 2, 3]])
-17:24:51.384 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: #default_f_password], [T, e, s, t, ., 1, 2, 3]]
-17:24:51.403 INFO - Executing: [find element: By.cssSelector: input[value=s�identifier]])
-17:24:51.509 INFO - Done: [find element: By.cssSelector: input[value=s�identifier]]
-17:24:51.528 INFO - Executing: [click: 4 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: input[value=s�identifier]]])
-17:24:51.743 INFO - Done: [click: 4 [[ChromeDriver: chrome on WIN8_1 (a979b0869e044533cc53832cfdbd42bc)] -> css selector: input[value=s�identifier]]]
+01:15:13.180 INFO - Detected dialect: OSS
+01:15:13.216 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+01:15:13.279 INFO - Executing: [get: https://espaceclientv3.orange.fr])
+01:15:29.824 INFO - Done: [get: https://espaceclientv3.orange.fr]
+01:15:29.864 INFO - Executing: [find elements: By.cssSelector: body])
+01:15:30.023 INFO - Done: [find elements: By.cssSelector: body]
+01:15:30.044 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: body]])
+01:15:30.299 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: body]]
+01:15:30.330 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
+01:15:30.429 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
+01:15:30.447 INFO - Executing: [find element: By.cssSelector: a[title=Identifiez-vous]])
+01:15:30.539 INFO - Done: [find element: By.cssSelector: a[title=Identifiez-vous]]
+01:15:30.552 INFO - Executing: [click: 1 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: #o-nav-item-login]])
+01:15:51.981 INFO - Done: [click: 1 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: #o-nav-item-login]]
+01:15:52.017 INFO - Executing: [find element: By.cssSelector: #default_f_credential])
+01:15:52.101 INFO - Done: [find element: By.cssSelector: #default_f_credential]
+01:15:52.118 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]])
+01:15:52.612 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]]
+01:15:52.629 INFO - Executing: [find element: By.cssSelector: #default_f_password])
+01:15:52.723 INFO - Done: [find element: By.cssSelector: #default_f_password]
+01:15:52.736 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: #default_f_password], [T, e, s, t, ., 1, 2, 3]])
+01:15:53.121 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> css selector: #default_f_password], [T, e, s, t, ., 1, 2, 3]]
+01:15:53.141 INFO - Executing: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]])
+01:15:53.240 INFO - Done: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]]
+01:15:53.262 INFO - Executing: [click: 4 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> xpath: //input[@class="sc_button_content_2 submit"]]])
+01:15:53.497 INFO - Done: [click: 4 [[ChromeDriver: chrome on WIN8_1 (4af05fac8a8d436594790be5bc6daf4c)] -> xpath: //input[@class="sc_button_content_2 submit"]]]
+01:15:54.534 INFO - Executing: [find elements: By.xpath: ec-account ec-account-gp])
+01:16:08.825 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: Cannot set property 'name' of undefined
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.29 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MOUADH', ip: '192.168.1.100', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Mouadh-K\AppData\Local\Temp\scoped_dir1880_15168}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4af05fac8a8d436594790be5bc6daf4c
+*** Element info: {Using=xpath, value=ec-account ec-account-gp}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:35)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+01:16:08.834 WARN - Exception: unknown error: Cannot set property 'name' of undefined
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.29 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MOUADH', ip: '192.168.1.100', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Mouadh-K\AppData\Local\Temp\scoped_dir1880_15168}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4af05fac8a8d436594790be5bc6daf4c
+*** Element info: {Using=xpath, value=ec-account ec-account-gp}
+01:16:09.031 INFO - Executing: [take screenshot])
+01:16:09.430 INFO - Done: [take screenshot]
+01:16:09.522 INFO - Executing: [delete session: de9e5e54-b5f1-4743-ab9f-421b34815f54])
+01:16:11.210 INFO - Done: [delete session: de9e5e54-b5f1-4743-ab9f-421b34815f54]
