@@ -1,26 +1,18 @@
 module.exports = {
   'espace client v3: step one' : function (browser) {
-    browser
-      .url('https://espaceclientv3.orange.fr')
+    var page = browser.page.espaceClient();
+    page.navigate()
       .waitForElementVisible('body', 1000)
-      .assert.elementPresent("#o-nav-item-login")
-      .click('a[title=Identifiez-vous]')
-  },
+      .assert.elementPresent("@loginItem")
+      .click('@idButton')
 
-  'espace client v3: step two' : function (browser) {
-    browser
-      .setValue('#default_f_credential', '0672088197')
-      .setValue('#default_f_password', 'Test.123')
-      .useXpath()
-      .click('//input[@class="sc_button_content_2 submit"]')
-      .pause(1000)
-  },
+      .setValue('@authId', '0672088197')
+      .setValue('@authPassword', 'Test.123')
+      .click('@idSubmit')
 
-  'espace client v3: step three' : function (browser) {
-    browser
-      .waitForElementVisible('ec-account ec-account-gp', 5000)
-      .assert.elementPresent(".ec-icon icon-avatar")
-      .assert.elementPresent(".btn btn-default btn-default-alone-sosh")
-      .end();
-  }
+      .waitForElementVisible("@bandeau", 5000)
+      .assert.elementPresent("@avatar")
+      .assert.elementPresent("@infoPerso")
+      browser.end();
+    }
 };

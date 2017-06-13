@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="1" 
+            failures="0" 
+            tests="1"> 
+ 
+  <testsuite name="espaceclientv3" 
+    errors="1" failures="0" hostname="" id="" package="espaceclientv3" skipped="0" 
+    tests="1" time="0.05000" timestamp="Mon, 12 Jun 2017 09:27:11 GMT"> 
+   
+    <testcase name="espace client v3: step one" classname="espaceclientv3" time="0.05000" assertions="0"> 
+    </testcase> 
+      <system-err> 
+          Error while running [Espaceclientv3 / espace client v3: step one]:
+
+  TypeError: Cannot call method 'element' of undefined
+    at Object.module.exports.espace client v3: step one (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\tests\espaceclientv3.js:15:15)
+    at Module.call (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\runner\module.js:62:34)
+    at suite.beforeEach.then.then.then.time (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\runner\testcase.js:70:29)
+    at _fulfilled (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\node_modules\q\q.js:796:13)
+    at E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\node_modules\q\q.js:137:13)
+    at flush (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (node.js:415:13) 
+      </system-err> 
+   
+   
+  </testsuite> 
+</testsuites> 
