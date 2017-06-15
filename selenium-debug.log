@@ -1,58 +1,82 @@
-10:47:52.445 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-10:47:52.445 INFO - Launching a standalone Selenium Server
-2017-06-12 10:47:52.475:INFO::main: Logging initialized @620ms to org.seleniumhq.jetty9.util.log.StdErrLog
-10:47:52.565 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:47:52.565 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+10:11:59.135 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+10:11:59.135 INFO - Launching a standalone Selenium Server
+2017-06-15 10:11:59.165:INFO::main: Logging initialized @471ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:11:59.245 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:11:59.245 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-10:47:52.565 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:47:52.565 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-10:47:52.565 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+10:11:59.245 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:11:59.245 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:11:59.245 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
-2017-06-12 10:47:52.635:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-12 10:47:52.685:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ae45eb6{/,null,AVAILABLE}
-2017-06-12 10:47:52.965:INFO:osjs.AbstractConnector:main: Started ServerConnector@13805618{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-12 10:47:52.965:INFO:osjs.Server:main: Started @1104ms
-10:47:52.965 INFO - Selenium Server is up and running
-10:47:54.835 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-10:47:54.875 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-10:47:54.895 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 13777
+2017-06-15 10:11:59.305:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-15 10:11:59.355:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ae45eb6{/,null,AVAILABLE}
+2017-06-15 10:11:59.555:INFO:osjs.AbstractConnector:main: Started ServerConnector@13805618{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-15 10:11:59.555:INFO:osjs.Server:main: Started @866ms
+10:11:59.555 INFO - Selenium Server is up and running
+10:12:01.104 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+10:12:01.144 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:12:01.166 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 21266
 Only local connections are allowed.
-10:47:58.681 INFO - Detected dialect: OSS
-10:47:58.723 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-10:47:58.754 INFO - Executing: [get: https://espaceclientv3.orange.fr])
-10:48:03.926 INFO - Done: [get: https://espaceclientv3.orange.fr]
-10:48:03.943 INFO - Executing: [find elements: By.cssSelector: body])
-10:48:04.050 INFO - Done: [find elements: By.cssSelector: body]
-10:48:04.061 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: body]])
-10:48:04.096 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: body]]
-10:48:04.103 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
-10:48:04.133 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
-10:48:04.139 INFO - Executing: [find element: By.xpath: //a[@title="Identifiez-vous"]])
-10:48:04.166 INFO - Done: [find element: By.xpath: //a[@title="Identifiez-vous"]]
-10:48:04.170 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: #o-nav-item-login]])
-10:48:05.966 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: #o-nav-item-login]]
-10:48:05.974 INFO - Executing: [find element: By.cssSelector: #default_f_credential])
-10:48:06.008 INFO - Done: [find element: By.cssSelector: #default_f_credential]
-10:48:06.013 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]])
-10:48:06.126 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: #default_f_credential], [0, 6, 7, 2, 0, 8, 8, 1, 9, 7]]
-10:48:06.134 INFO - Executing: [find element: By.cssSelector: #default_f_password])
-10:48:06.167 INFO - Done: [find element: By.cssSelector: #default_f_password]
-10:48:06.173 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: #default_f_password], [T, e, s, t, ., 1, 2, 3]])
-10:48:06.278 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: #default_f_password], [T, e, s, t, ., 1, 2, 3]]
-10:48:06.286 INFO - Executing: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]])
-10:48:06.324 INFO - Done: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]]
-10:48:06.328 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> xpath: //input[@class="sc_button_content_2 submit"]]])
-10:48:06.393 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> xpath: //input[@class="sc_button_content_2 submit"]]]
-10:48:06.403 INFO - Executing: [find elements: By.cssSelector: .ec-account-gp])
-10:48:06.437 INFO - Done: [find elements: By.cssSelector: .ec-account-gp]
-10:48:06.943 INFO - Executing: [find elements: By.cssSelector: .ec-account-gp])
-10:48:13.650 INFO - Done: [find elements: By.cssSelector: .ec-account-gp]
-10:48:13.654 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: .ec-account-gp]])
-10:48:13.677 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (11e22cc408fb389ffca3050e6819c77f)] -> css selector: .ec-account-gp]]
-10:48:13.686 INFO - Executing: [find elements: By.cssSelector: .ec-icon])
-10:48:13.716 INFO - Done: [find elements: By.cssSelector: .ec-icon]
-10:48:13.723 INFO - Executing: [find elements: By.cssSelector: .btn-default-alone-sosh])
-10:48:13.751 INFO - Done: [find elements: By.cssSelector: .btn-default-alone-sosh]
-10:48:13.756 INFO - Executing: [delete session: 60b1495e-aa3c-47a6-aaaa-1b066bbc9ba9])
-10:48:15.873 INFO - Done: [delete session: 60b1495e-aa3c-47a6-aaaa-1b066bbc9ba9]
+10:12:03.496 INFO - Detected dialect: OSS
+10:12:03.553 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:12:03.581 INFO - Executing: [get: https://espaceclientv3.orange.fr])
+10:12:07.064 INFO - Done: [get: https://espaceclientv3.orange.fr]
+10:12:07.075 INFO - Executing: [find elements: By.cssSelector: body])
+10:12:07.176 INFO - Done: [find elements: By.cssSelector: body]
+10:12:07.185 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: body]])
+10:12:07.216 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: body]]
+10:12:07.225 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
+10:12:07.252 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
+10:12:07.257 INFO - Executing: [find element: By.xpath: //a[@title="Identifiez-vous"]])
+10:12:07.292 INFO - Done: [find element: By.xpath: //a[@title="Identifiez-vous"]]
+10:12:07.296 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #o-nav-item-login]])
+10:12:09.346 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #o-nav-item-login]]
+10:12:09.357 INFO - Executing: [find element: By.cssSelector: #default_f_credential])
+10:12:09.385 INFO - Done: [find element: By.cssSelector: #default_f_credential]
+10:12:09.393 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_credential], [g, i, a, c, o, m, o, ., p, o, r, c, u, @, o, r, a, n, g, e, ., f, r]])
+10:12:09.669 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_credential], [g, i, a, c, o, m, o, ., p, o, r, c, u, @, o, r, a, n, g, e, ., f, r]]
+10:12:09.679 INFO - Executing: [find element: By.cssSelector: #default_f_password])
+10:12:09.705 INFO - Done: [find element: By.cssSelector: #default_f_password]
+10:12:09.710 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_password], [o, l, m, e, d, o, 3, 6]])
+10:12:09.792 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_password], [o, l, m, e, d, o, 3, 6]]
+10:12:09.800 INFO - Executing: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]])
+10:12:09.828 INFO - Done: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]]
+10:12:09.830 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //input[@class="sc_button_content_2 submit"]]])
+10:12:09.900 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //input[@class="sc_button_content_2 submit"]]]
+10:12:09.906 INFO - Executing: [find elements: By.cssSelector: .ec-account-first])
+10:12:09.931 INFO - Done: [find elements: By.cssSelector: .ec-account-first]
+10:12:10.447 INFO - Executing: [find elements: By.cssSelector: .ec-account-first])
+10:12:13.691 INFO - Done: [find elements: By.cssSelector: .ec-account-first]
+10:12:13.694 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-first]])
+10:12:13.725 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-first]]
+10:12:13.734 INFO - Executing: [find elements: By.cssSelector: .ec-account-img])
+10:12:13.769 INFO - Done: [find elements: By.cssSelector: .ec-account-img]
+10:12:13.777 INFO - Executing: [find elements: By.cssSelector: .btn-default-alone-sosh])
+10:12:13.806 INFO - Done: [find elements: By.cssSelector: .btn-default-alone-sosh]
+10:12:13.813 INFO - Executing: [find elements: By.cssSelector: .icon-avatar])
+10:12:13.842 INFO - Done: [find elements: By.cssSelector: .icon-avatar]
+10:12:13.851 INFO - Executing: [find element: By.cssSelector: .ec-account-name])
+10:12:13.883 INFO - Done: [find element: By.cssSelector: .ec-account-name]
+10:12:13.887 INFO - Executing: [get text: 13 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-name]])
+10:12:13.907 INFO - Done: [get text: 13 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-name]]
+10:12:13.917 INFO - Executing: [find element: By.xpath: //p[@class="ec-account-infos"][1]])
+10:12:13.950 INFO - Done: [find element: By.xpath: //p[@class="ec-account-infos"][1]]
+10:12:13.954 INFO - Executing: [get text: 14 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][1]]])
+10:12:13.984 INFO - Done: [get text: 14 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][1]]]
+10:12:13.990 INFO - Executing: [find element: By.xpath: //p[@class="ec-account-infos"][2]])
+10:12:14.009 INFO - Done: [find element: By.xpath: //p[@class="ec-account-infos"][2]]
+10:12:14.019 INFO - Executing: [get text: 15 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][2]]])
+10:12:14.053 INFO - Done: [get text: 15 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][2]]]
+10:12:14.063 INFO - Executing: [find element: By.cssSelector: .ec-account-btn .btn-default-alone-sosh])
+10:12:14.091 INFO - Done: [find element: By.cssSelector: .ec-account-btn .btn-default-alone-sosh]
+10:12:14.091 INFO - Executing: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href])
+10:12:14.101 INFO - Done: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href]
+10:12:14.113 INFO - Executing: [find element: By.cssSelector: .ec-account-btn .btn-default])
+10:12:14.136 INFO - Done: [find element: By.cssSelector: .ec-account-btn .btn-default]
+10:12:14.136 INFO - Executing: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href])
+10:12:14.148 INFO - Done: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href]
+10:12:14.153 INFO - Executing: [find element: By.cssSelector: .ec-account-btn .btn-default])
+10:12:14.167 INFO - Done: [find element: By.cssSelector: .ec-account-btn .btn-default]
+10:12:14.171 INFO - Executing: [click: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh]])
+10:12:16.616 INFO - Done: [click: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh]]

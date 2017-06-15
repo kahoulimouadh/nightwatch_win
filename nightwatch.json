@@ -14,7 +14,7 @@
     "cli_args" : {
       "webdriver.chrome.driver" : "drivers/chromedriver.exe",
       "webdriver.gecko.driver" : "drivers/geckodriver.exe",
-      "webdriver.edge.driver" : ""
+      "webdriver.edge.driver" : "drivers/MicrosoftWebDriver.exe"
     }
   },
 
@@ -32,7 +32,9 @@
       },
       "desiredCapabilities": {
         "browserName": "chrome",
-        "marionette": true
+        "marionette": true,
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
       }
     },
 
