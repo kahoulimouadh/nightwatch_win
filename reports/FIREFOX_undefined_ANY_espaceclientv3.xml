@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="0" 
+            failures="1" 
+            tests="2"> 
+ 
+  <testsuite name="espaceclientv3" 
+    errors="0" failures="1" hostname="" id="" package="espaceclientv3" skipped="1" 
+    tests="2" time="9.877" timestamp="Fri, 16 Jun 2017 10:24:08 GMT"> 
+   
+    <testcase name="espace client v3: page 1" classname="espaceclientv3" time="9.877" assertions="2"> 
+ 
+      <failure message="Testing if element &lt;#o-nav-item-login&gt; is present.">    at Object.elementPresent (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Object.module.exports.espace client v3: page 1 (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\tests\espaceclientv3.js:6:15)
+    at Module.call (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\runner\module.js:62:34)
+    at suite.beforeEach.then.then.then.time (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\runner\testcase.js:70:29)</failure> 
+ 
+     
+    </testcase> 
+   
+   
+     
+    <testcase 
+      name="espace client v3: page 2" classname="espaceclientv3"> 
+      <skipped /> 
+    </testcase> 
+     
+   
+  </testsuite> 
+</testsuites> 

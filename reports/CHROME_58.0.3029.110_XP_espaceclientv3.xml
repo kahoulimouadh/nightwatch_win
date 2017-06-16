@@ -5,29 +5,9 @@
  
   <testsuite name="espaceclientv3" 
     errors="0" failures="0" hostname="" id="" package="espaceclientv3" skipped="0" 
-    tests="1" time="17.88" timestamp="Thu, 15 Jun 2017 09:11:59 GMT"> 
+    tests="1" time="7.187" timestamp="Thu, 15 Jun 2017 09:23:39 GMT"> 
    
-    <testcase name="espace client v3: page 1" classname="espaceclientv3" time="17.88" assertions="11"> 
- 
-     
- 
-     
- 
-     
- 
-     
- 
-     
- 
-     
- 
-     
- 
-     
- 
-     
- 
-     
+    <testcase name="espace client v3: page 2" classname="espaceclientv3" time="7.187" assertions="1"> 
  
      
     </testcase> 

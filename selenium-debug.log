@@ -1,82 +1,73 @@
-10:11:59.135 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-10:11:59.135 INFO - Launching a standalone Selenium Server
-2017-06-15 10:11:59.165:INFO::main: Logging initialized @471ms to org.seleniumhq.jetty9.util.log.StdErrLog
-10:11:59.245 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:11:59.245 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+11:24:07.610 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+11:24:07.612 INFO - Launching a standalone Selenium Server
+2017-06-16 11:24:07.639:INFO::main: Logging initialized @526ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:24:07.725 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:24:07.725 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-10:11:59.245 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:11:59.245 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-10:11:59.245 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+11:24:07.725 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:24:07.726 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:24:07.727 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
-2017-06-15 10:11:59.305:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-15 10:11:59.355:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ae45eb6{/,null,AVAILABLE}
-2017-06-15 10:11:59.555:INFO:osjs.AbstractConnector:main: Started ServerConnector@13805618{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-15 10:11:59.555:INFO:osjs.Server:main: Started @866ms
-10:11:59.555 INFO - Selenium Server is up and running
-10:12:01.104 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-10:12:01.144 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-10:12:01.166 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 21266
-Only local connections are allowed.
-10:12:03.496 INFO - Detected dialect: OSS
-10:12:03.553 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-10:12:03.581 INFO - Executing: [get: https://espaceclientv3.orange.fr])
-10:12:07.064 INFO - Done: [get: https://espaceclientv3.orange.fr]
-10:12:07.075 INFO - Executing: [find elements: By.cssSelector: body])
-10:12:07.176 INFO - Done: [find elements: By.cssSelector: body]
-10:12:07.185 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: body]])
-10:12:07.216 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: body]]
-10:12:07.225 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
-10:12:07.252 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
-10:12:07.257 INFO - Executing: [find element: By.xpath: //a[@title="Identifiez-vous"]])
-10:12:07.292 INFO - Done: [find element: By.xpath: //a[@title="Identifiez-vous"]]
-10:12:07.296 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #o-nav-item-login]])
-10:12:09.346 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #o-nav-item-login]]
-10:12:09.357 INFO - Executing: [find element: By.cssSelector: #default_f_credential])
-10:12:09.385 INFO - Done: [find element: By.cssSelector: #default_f_credential]
-10:12:09.393 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_credential], [g, i, a, c, o, m, o, ., p, o, r, c, u, @, o, r, a, n, g, e, ., f, r]])
-10:12:09.669 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_credential], [g, i, a, c, o, m, o, ., p, o, r, c, u, @, o, r, a, n, g, e, ., f, r]]
-10:12:09.679 INFO - Executing: [find element: By.cssSelector: #default_f_password])
-10:12:09.705 INFO - Done: [find element: By.cssSelector: #default_f_password]
-10:12:09.710 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_password], [o, l, m, e, d, o, 3, 6]])
-10:12:09.792 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: #default_f_password], [o, l, m, e, d, o, 3, 6]]
-10:12:09.800 INFO - Executing: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]])
-10:12:09.828 INFO - Done: [find element: By.xpath: //input[@class="sc_button_content_2 submit"]]
-10:12:09.830 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //input[@class="sc_button_content_2 submit"]]])
-10:12:09.900 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //input[@class="sc_button_content_2 submit"]]]
-10:12:09.906 INFO - Executing: [find elements: By.cssSelector: .ec-account-first])
-10:12:09.931 INFO - Done: [find elements: By.cssSelector: .ec-account-first]
-10:12:10.447 INFO - Executing: [find elements: By.cssSelector: .ec-account-first])
-10:12:13.691 INFO - Done: [find elements: By.cssSelector: .ec-account-first]
-10:12:13.694 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-first]])
-10:12:13.725 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-first]]
-10:12:13.734 INFO - Executing: [find elements: By.cssSelector: .ec-account-img])
-10:12:13.769 INFO - Done: [find elements: By.cssSelector: .ec-account-img]
-10:12:13.777 INFO - Executing: [find elements: By.cssSelector: .btn-default-alone-sosh])
-10:12:13.806 INFO - Done: [find elements: By.cssSelector: .btn-default-alone-sosh]
-10:12:13.813 INFO - Executing: [find elements: By.cssSelector: .icon-avatar])
-10:12:13.842 INFO - Done: [find elements: By.cssSelector: .icon-avatar]
-10:12:13.851 INFO - Executing: [find element: By.cssSelector: .ec-account-name])
-10:12:13.883 INFO - Done: [find element: By.cssSelector: .ec-account-name]
-10:12:13.887 INFO - Executing: [get text: 13 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-name]])
-10:12:13.907 INFO - Done: [get text: 13 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .ec-account-name]]
-10:12:13.917 INFO - Executing: [find element: By.xpath: //p[@class="ec-account-infos"][1]])
-10:12:13.950 INFO - Done: [find element: By.xpath: //p[@class="ec-account-infos"][1]]
-10:12:13.954 INFO - Executing: [get text: 14 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][1]]])
-10:12:13.984 INFO - Done: [get text: 14 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][1]]]
-10:12:13.990 INFO - Executing: [find element: By.xpath: //p[@class="ec-account-infos"][2]])
-10:12:14.009 INFO - Done: [find element: By.xpath: //p[@class="ec-account-infos"][2]]
-10:12:14.019 INFO - Executing: [get text: 15 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][2]]])
-10:12:14.053 INFO - Done: [get text: 15 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> xpath: //p[@class="ec-account-infos"][2]]]
-10:12:14.063 INFO - Executing: [find element: By.cssSelector: .ec-account-btn .btn-default-alone-sosh])
-10:12:14.091 INFO - Done: [find element: By.cssSelector: .ec-account-btn .btn-default-alone-sosh]
-10:12:14.091 INFO - Executing: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href])
-10:12:14.101 INFO - Done: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href]
-10:12:14.113 INFO - Executing: [find element: By.cssSelector: .ec-account-btn .btn-default])
-10:12:14.136 INFO - Done: [find element: By.cssSelector: .ec-account-btn .btn-default]
-10:12:14.136 INFO - Executing: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href])
-10:12:14.148 INFO - Done: [get element attribute: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh], href]
-10:12:14.153 INFO - Executing: [find element: By.cssSelector: .ec-account-btn .btn-default])
-10:12:14.167 INFO - Done: [find element: By.cssSelector: .ec-account-btn .btn-default]
-10:12:14.171 INFO - Executing: [click: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh]])
-10:12:16.616 INFO - Done: [click: 10 [[ChromeDriver: chrome on XP (2ce09de5fa1b8e8990059f4a2764ff63)] -> css selector: .btn-default-alone-sosh]]
+2017-06-16 11:24:07.801:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-16 11:24:07.861:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ae45eb6{/,null,AVAILABLE}
+2017-06-16 11:24:08.077:INFO:osjs.AbstractConnector:main: Started ServerConnector@13805618{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-16 11:24:08.078:INFO:osjs.Server:main: Started @964ms
+11:24:08.078 INFO - Selenium Server is up and running
+11:24:09.767 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+11:24:09.807 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+11:24:09.824 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1497608650684	geckodriver	INFO	Listening on 127.0.0.1:3769
+1497608651584	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1497608655599	Marionette	INFO	Listening on port 58293
+11:24:16.053 INFO - Detected dialect: W3C
+11:24:16.092 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Espaceclientv3, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+11:24:16.120 INFO - Executing: [get: https://espaceclientv3.orange.fr])
+11:24:17.403 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MKAHAOULI-PC', ip: '10.241.108.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\M2376~1.KAH\AppData\Local\Temp\rust_mozprofile.4aCyBSjRI7zc, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=23936.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b2f42692-e708-4ddb-8195-5c09f099eac0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
+	at org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:40)
+	at org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:25)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+11:24:17.410 WARN - Exception: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MKAHAOULI-PC', ip: '10.241.108.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\M2376~1.KAH\AppData\Local\Temp\rust_mozprofile.4aCyBSjRI7zc, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=23936.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b2f42692-e708-4ddb-8195-5c09f099eac0
+11:24:17.611 INFO - Executing: [find elements: By.cssSelector: body])
+11:24:17.679 INFO - Done: [find elements: By.cssSelector: body]
+11:24:17.697 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (b2f42692-e708-4ddb-8195-5c09f099eac0)] -> css selector: body]])
+11:24:17.907 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (b2f42692-e708-4ddb-8195-5c09f099eac0)] -> css selector: body]]
+11:24:17.929 INFO - Executing: [find elements: By.cssSelector: #o-nav-item-login])
+11:24:17.939 INFO - Done: [find elements: By.cssSelector: #o-nav-item-login]
+11:24:17.949 INFO - Executing: [take screenshot])
+11:24:18.024 INFO - Done: [take screenshot]
+11:24:18.081 INFO - Executing: [delete session: 73d25c97-f1e9-4ee2-aa4f-03c9ce1b7cfe])
+1497608658080	Marionette	INFO	New connections will no longer be accepted
+11:24:19.264 INFO - Done: [delete session: 73d25c97-f1e9-4ee2-aa4f-03c9ce1b7cfe]
