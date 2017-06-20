@@ -25,7 +25,13 @@ module.exports = {
       selector: '//p[@class="ec-account-infos"][2]',
       locateStrategy: 'xpath'
     },
-    btn1: '.ec-account-btn .btn-default-alone-sosh',
-    btn2: '.ec-account-btn .btn-default'
+    btn1: {
+      selector: '//p[@class="ec-account-infos"][1]',
+      locateStrategy: 'xpath'
+    },
+    btn2: {
+      selector: '//p[@class="ec-account-infos"][2]',
+      locateStrategy: 'xpath'
+    }
   }
 };

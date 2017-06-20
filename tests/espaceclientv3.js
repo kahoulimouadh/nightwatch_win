@@ -19,17 +19,14 @@ module.exports = {
       .assert.containsText("@accountNum", "06 89 70 28 77")
       .assert.attributeContains('@btn1', 'href', 'espaceclientv3.orange.fr')
       .assert.attributeContains('@btn2', 'href', 'espaceclientv3.orange.fr')
-      .click('@btn2')
+      .click('@btn1')
       browser.pause(2000)
     },
 
     'espace client v3: page 2' : function (browser) {
     var page = browser.page.page2();
-    page.navigate()
-      .setValue('@authId', 'giacomo.porcu@orange.fr')
-      .setValue('@authPassword', 'olmedo36')
-      .click('@idSubmit')
+    page
       .waitForElementVisible('body', 1000)
-      browser.end();
+      /*browser.end();*/
     }
 };
