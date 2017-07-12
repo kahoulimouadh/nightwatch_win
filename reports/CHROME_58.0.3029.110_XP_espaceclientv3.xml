@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<testsuites errors="0" 
-            failures="0" 
+<testsuites errors="1" 
+            failures="1" 
             tests="2"> 
  
   <testsuite name="espaceclientv3" 
-    errors="0" failures="0" hostname="" id="" package="espaceclientv3" skipped="0" 
-    tests="2" time="16.80" timestamp="Tue, 20 Jun 2017 12:56:39 GMT"> 
+    errors="1" failures="1" hostname="" id="" package="espaceclientv3" skipped="1" 
+    tests="2" time="17.16" timestamp="Wed, 21 Jun 2017 08:49:25 GMT"> 
    
-    <testcase name="espace client v3: page 1" classname="espaceclientv3" time="15.88" assertions="11"> 
+    <testcase name="espace client v3: page 1" classname="espaceclientv3" time="17.16" assertions="10"> 
  
      
  
@@ -25,18 +25,34 @@
  
      
  
-     
- 
-     
+      <failure message="Testing if attribute href of &lt;.ec-account-btn .btn .btn-default .btn-default-alone-sosh&gt; contains &quot;espaceclientv3.orange.fr&quot;. Element could not be located.">    at Object.attributeContains (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Object.module.exports.espace client v3: page 1 (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\tests\espaceclientv3.js:20:15)
+    at Module.call (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\runner\module.js:62:34)
+    at suite.beforeEach.then.then.then.time (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\runner\testcase.js:70:29)</failure> 
  
      
     </testcase> 
+      <system-err> 
+        ERROR: Unable to locate element: &quot;.ec-account-btn .btn .btn-default .btn-default-alone-sosh&quot; using: css selector
+    at command (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\api\assertions\attributeContains.js:54:21)
+    at module.exports.BaseAssertion._scheduleAssertion (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (E:\Projets Orange\Test Fonctionnels\init\nightwatch_win\nightwatch\lib\core\queue.js:73:8) 
+      </system-err> 
    
-    <testcase name="espace client v3: page 2" classname="espaceclientv3" time="0.9240" assertions="1"> 
- 
+   
      
+    <testcase 
+      name="espace client v3: page 2" classname="espaceclientv3"> 
+      <skipped /> 
     </testcase> 
-   
+     
    
   </testsuite> 
 </testsuites> 

@@ -1,1 +1,1 @@
-require('E:/Projets Orange/Test Fonctionnels/init/nightwatch_win/nightwatch/bin/runner.js');
+require('E:/Projets Orange/Tests Fonctionnels/init/nightwatch_win/nightwatch/bin/runner.js');
